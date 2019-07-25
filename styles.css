@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.intro-title{
+  display:flex;
+  justify-content: center;
+  font-size: 23px;
+  position: sticky;
+  top: 0;
+  background-color: lightpink;
+  border-bottom: 8px lightpink solid;
+}
+.pinktitle{
+  color: palevioletred;
+  font-family: 'Didact Gothic', sans-serif;
+}
+.andtitle{
+  color: white;
+font-family: 'Didact Gothic', sans-serif;
+}
+.bluetitle{
+  color: rgb(26, 168, 184);
+  font-family: 'Didact Gothic', sans-serif;
+}
+img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  margin: 5px;
+}
+.images{
+  display:flex;
+  justify-content: center;
+  flex-flow: wrap
+}
+body{
+  background-color: lightpink;
+}
+.end{
+  display:flex;
+  justify-content: center;
+  font-size: 23px;
+  color: white;
+  font-family: 'Didact Gothic', sans-serif;
+  border-bottom: lightpink solid 20px;
+  border-top: lightpink solid 10px;
+}
+@media screen and (max-width: 500px){
+  /*change background color to teal*/
+  body{
+    background-color: turquoise;
+  }
+}
+/*font-family: 'Jacques Francois Shadow', cursive;*/
+/*<link href="https://fonts.googleapis.com/css?family=Jacques+Francois+Shadow&display=swap" rel="stylesheet">*/
